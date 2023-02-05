@@ -4,7 +4,7 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 772px;
+  min-height: 851px;
 }
 
 .u-section-1 .u-text-1 {
@@ -13,7 +13,7 @@
   text-transform: none;
   font-weight: 700;
   font-family: Montserrat, sans-serif;
-  margin: 299px 289px 0 0;
+  margin: 299px 318px 0 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -38,11 +38,11 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 637px;
+    min-height: 702px;
   }
 
   .u-section-1 .u-text-1 {
-    margin-right: 89px;
+    margin-right: 118px;
   }
 
   .u-section-1 .u-text-2 {
@@ -56,7 +56,7 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 488px;
+    min-height: 538px;
   }
 
   .u-section-1 .u-text-1 {
@@ -81,7 +81,7 @@
   }
 
   .u-section-1 .u-sheet-1 {
-    min-height: 366px;
+    min-height: 404px;
   }
 
   .u-section-1 .u-text-1 {
@@ -103,7 +103,7 @@
   }
 
   .u-section-1 .u-sheet-1 {
-    min-height: 230px;
+    min-height: 254px;
   }
 
   .u-section-1 .u-text-1 {
@@ -785,7 +785,7 @@
 }
 
 .u-section-9 .u-image-6 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("images/fff.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("images/pareja-comunicacion-asertiva.jpg");
   background-position: 50% 50%;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
