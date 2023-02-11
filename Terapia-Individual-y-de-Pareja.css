@@ -1051,7 +1051,7 @@
 .u-section-11 .u-icon-1 {
   width: 92px;
   height: 92px;
-  margin: 35px auto 0;
+  margin: 31px auto 0 130px;
 }
 
 @media (max-width: 1199px) {
@@ -1069,6 +1069,10 @@
 
   .u-section-11 .u-layout-cell-3 {
     min-height: 182px;
+  }
+
+  .u-section-11 .u-icon-1 {
+    margin-left: 106px;
   }
 }
 
@@ -1094,6 +1098,10 @@
 
   .u-section-11 .u-layout-cell-3 {
     min-height: 139px;
+  }
+
+  .u-section-11 .u-icon-1 {
+    margin-left: 80px;
   }
 }
 
