@@ -170,9 +170,9 @@
   }
 
   .u-section-1 .u-text-2 {
-    font-size: 1.5rem;
     width: auto;
-    margin-top: 17px;
+    margin-top: 16px;
+    font-size: 1.25rem;
   }
 } .u-section-2 {
   background-image: none;
@@ -227,7 +227,7 @@
   }
 
   .u-section-2 .u-text-1 {
-    font-size: 2.25rem;
+    font-size: 1.875rem;
   }
 
   .u-section-2 .u-text-2 {
@@ -308,11 +308,17 @@
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 757px;
+    min-height: 1586px;
   }
 
   .u-section-3 .u-text-1 {
-    font-size: 2.25rem;
+    font-size: 1.875rem;
+    width: auto;
+  }
+
+  .u-section-3 .u-layout-wrap-1 {
+    margin-top: 28px;
+    margin-bottom: 0;
   }
 }.u-section-4 .u-sheet-1 {
   min-height: 855px;
@@ -432,7 +438,36 @@
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 339px;
+    min-height: 1955px;
+  }
+
+  .u-section-4 .u-layout-wrap-1 {
+    margin-top: 0;
+  }
+
+  .u-section-4 .u-layout-cell-1 {
+    min-height: 1034px;
+  }
+
+  .u-section-4 .u-container-layout-1 {
+    padding-top: 29px;
+    padding-bottom: 55px;
+  }
+
+  .u-section-4 .u-text-1 {
+    font-size: 1.875rem;
+    width: auto;
+    margin-top: 1px;
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+
+  .u-section-4 .u-layout-cell-2 {
+    min-height: 854px;
+  }
+
+  .u-section-4 .u-text-3 {
+    width: auto;
   }
 }.u-section-5 .u-sheet-1 {
   min-height: 597px;
@@ -459,6 +494,21 @@
     margin-right: 0;
     margin-left: 0;
   }
+}
+
+@media (max-width: 575px) {
+  .u-section-5 .u-sheet-1 {
+    min-height: 828px;
+  }
+
+  .u-section-5 .u-text-1 {
+    font-size: 1.5rem;
+    width: auto;
+  }
+
+  .u-section-5 .u-text-2 {
+    margin-bottom: 40px;
+  }
 } .u-section-6 {
   background-image: none;
 }
@@ -473,7 +523,19 @@
 }
 
 .u-section-6 .u-text-2 {
-  margin: 21px 0 60px;
+  margin: 0 0 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-6 .u-text-1 {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-6 .u-text-1 {
+    font-size: 1.875rem;
+  }
 } .u-section-7 {
   min-height: 1373px;
 }
@@ -527,10 +589,12 @@
 
 .u-section-7 .u-image-2 {
   background-image: url("images/Elrelojindicatiempoydedicacionenlaterapiadepareja.png");
+  background-position: 50% 50%;
 }
 
 .u-section-7 .u-image-3 {
   background-image: url("images/download_image_1714414226303.png");
+  background-position: 50% 50%;
 }
 
 .u-section-7 .u-layout-cell-2 {
@@ -700,7 +764,11 @@
 
 @media (max-width: 575px) {
    .u-section-7 {
-    min-height: 1639px;
+    min-height: 1611px;
+  }
+
+  .u-section-7 .u-shape-1 {
+    margin-top: 49px;
   }
 
   .u-section-7 .u-layout-wrap-1 {
@@ -730,14 +798,12 @@
   .u-section-7 .u-image-2 {
     width: 158px;
     height: 158px;
-    background-position: 50% 50%;
     margin: -105px 0 0 auto;
   }
 
   .u-section-7 .u-image-3 {
     width: 182px;
     height: 182px;
-    background-position: 50% 50%;
     margin: 35px -12px -2px auto;
   }
 
@@ -746,7 +812,7 @@
   }
 
   .u-section-7 .u-text-1 {
-    font-size: 2.25rem;
+    font-size: 1.875rem;
     width: auto;
     margin-top: 29px;
     margin-right: 20px;
@@ -812,7 +878,7 @@
 
 @media (max-width: 575px) {
   .u-section-8 .u-text-1 {
-    font-size: 2.25rem;
+    font-size: 1.875rem;
   }
 } .u-section-9 {
   background-image: none;
