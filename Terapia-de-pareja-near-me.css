@@ -1164,11 +1164,23 @@
 
 @media (max-width: 575px) {
   .u-section-13 .u-sheet-1 {
-    min-height: 1169px;
+    min-height: 1144px;
+  }
+
+  .u-section-13 .u-text-1 {
+    margin-top: 18px;
   }
 
   .u-section-13 .u-text-2 {
     padding-left: 20px;
+    width: auto;
+    margin-top: 18px;
+    margin-right: 10px;
+  }
+
+  .u-section-13 .u-btn-1 {
+    margin-top: 26px;
+    margin-bottom: 26px;
   }
 } .u-section-14 {
   background-image: none;
@@ -1205,6 +1217,24 @@
 @media (max-width: 1199px) {
   .u-section-14 .u-text-2 {
     margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-14 .u-sheet-1 {
+    min-height: 1601px;
+  }
+
+  .u-section-14 .u-text-2 {
+    width: auto;
+    margin-top: 13px;
+    margin-right: 10px;
+    margin-left: auto;
+  }
+
+  .u-section-14 .u-btn-1 {
+    margin-top: 47px;
+    margin-bottom: 58px;
   }
 } .u-section-15 {
   background-image: none;
@@ -1344,4 +1374,7 @@
   .u-section-15 .u-layout-cell-3 {
     min-height: 187px;
   }
+}/* Para ocultar el desbordamiento horizontal en el cuerpo de la página */
+body {
+    overflow-x: hidden;
 }
