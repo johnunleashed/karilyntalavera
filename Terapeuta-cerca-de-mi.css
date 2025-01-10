@@ -1115,7 +1115,8 @@
 }
 
 .u-section-14 .u-blog-1 {
-  margin: 20px auto 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .u-section-14 .u-repeater-1 {
@@ -1225,13 +1226,6 @@
   right: 10px;
   width: 40px;
   height: 40px;
-}
-
-@media (max-width: 1199px) {
-  .u-section-14 .u-blog-1 {
-    margin-right: initial;
-    margin-left: initial;
-  }
 }
 
 @media (max-width: 991px) {
