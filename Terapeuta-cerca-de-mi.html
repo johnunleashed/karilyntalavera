@@ -46,7 +46,34 @@
     <meta property="og:description" content="Terapia individual y de pareja que te guía hacia la comprensión, el crecimiento y la conexión. Te ayudamos a superar obstáculos y fortalecer tus vínculos. ¡Transforma tu vida amorosa hoy mismo!">
     <meta property="og:url" content="https://karilyntalavera.com/">
     <meta property="og:type" content="website">
-  
+  <script>
+    var url = 'https://whatsapp.socialintents.com/api/chat/siwhatsapp.1.0.js';
+    var s = document.createElement('script');s.type = 'text/javascript';s.async = true;s.src = url;
+    var chatSettings = {
+        "backgroundColor": "#25d366",
+        "textColor": "#000000",
+        "position": "right",
+        "marginBottom": "25",
+        "marginLeft": "0",
+        "marginRight": "25",
+        "logo": "https://whatsapp.socialintents.com/images/whatsapp.png",
+        "ctaText": "¡Cuéntame tu inquietud!",
+        "chatIcon": "1",
+        "chatIconImageUrl": "",
+        "showPopup": false,
+        "welcomeText": "Hola, ¡Bienvenida/o  a tu espacio seguro!",
+        "messageText": "Hola, me gustaría mas información respecto a la terapia de pareja",
+        "phoneNumber": "+573132518966"
+    };
+    s.onload = function() {
+        addWidget(chatSettings);
+    };
+    var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);
+</script>
+
+
+
+
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-552NPMTM28"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -54,7 +81,9 @@
   gtag('js', new Date());
 
   gtag('config', 'G-552NPMTM28');
-</script><script>
+</script>
+
+<script>
     function gdprConfirmed() {
         return document.cookie.split(';').filter(function(item) {
             var val = item.trim().split('=');
